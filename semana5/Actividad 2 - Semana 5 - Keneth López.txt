@@ -1,0 +1,29 @@
+namespace semana5_KennethLopez
+{
+    class semana5
+    {
+        static void Main(string[] args)
+        {
+            //Variables
+            int a, b;
+            //Entrada
+            Console.WriteLine("Ingrese a");
+            a=Convert.ToInt32(Console.ReadLine());
+            
+            Console.WriteLine("Ingrese B");
+            b=Convert.ToInt32(Console.ReadLine());
+            
+            if(a>b)
+            {
+                Console.WriteLine("Verdadero");
+            }
+            else if(a==b)
+            {
+                Console.WriteLine("Igual");
+            }
+            else{
+                Console.WriteLine("Falso");
+            }
+        }
+    }
+}
